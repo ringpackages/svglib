@@ -1,0 +1,60 @@
+/*
+    RingSVGLib - SVG Graphics Library for Ring Programming Language
+*/
+
+# ============================================================================
+# Constants
+# ============================================================================
+
+# Text anchors
+SVG_ANCHOR_START    = "start"
+SVG_ANCHOR_MIDDLE   = "middle"
+SVG_ANCHOR_END      = "end"
+
+# Text baselines
+SVG_BASELINE_AUTO       = "auto"
+SVG_BASELINE_MIDDLE     = "middle"
+SVG_BASELINE_HANGING    = "hanging"
+
+# Stroke line caps
+SVG_CAP_BUTT    = "butt"
+SVG_CAP_ROUND   = "round"
+SVG_CAP_SQUARE  = "square"
+
+# Stroke line joins
+SVG_JOIN_MITER  = "miter"
+SVG_JOIN_ROUND  = "round"
+SVG_JOIN_BEVEL  = "bevel"
+
+# Font weights
+SVG_WEIGHT_NORMAL   = "normal"
+SVG_WEIGHT_BOLD     = "bold"
+SVG_WEIGHT_LIGHTER  = "lighter"
+SVG_WEIGHT_BOLDER   = "bolder"
+
+# Font styles
+SVG_STYLE_NORMAL    = "normal"
+SVG_STYLE_ITALIC    = "italic"
+SVG_STYLE_OBLIQUE   = "oblique"
+
+# Gradient spread methods
+SVG_SPREAD_PAD      = "pad"
+SVG_SPREAD_REFLECT  = "reflect"
+SVG_SPREAD_REPEAT   = "repeat"
+
+# Filter types
+SVG_FILTER_BLUR     = "blur"
+SVG_FILTER_SHADOW   = "shadow"
+SVG_FILTER_GLOW     = "glow"
+
+# Marker types
+SVG_MARKER_ARROW    = "arrow"
+SVG_MARKER_DOT      = "dot"
+SVG_MARKER_SQUARE   = "square"
+
+# Chart types
+SVG_CHART_BAR       = "bar"
+SVG_CHART_LINE      = "line"
+SVG_CHART_PIE       = "pie"
+SVG_CHART_DONUT     = "donut"
+SVG_CHART_AREA      = "area"
