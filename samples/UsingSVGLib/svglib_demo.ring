@@ -1,5 +1,5 @@
 /*
-    RingSVGLib Demo - SVG Graphics Creation in Ring
+    SVGLib Demo - SVG Graphics Creation in Ring
 */
 
 load "svglib.ring"
