@@ -5,11 +5,11 @@ aPackageInfo = [
 	:developer = "Mahmoud Fayed",
 	:email = "msfclipper@yahoo.com",
 	:license = "MIT License",
-	:version = "1.0.1",
+	:version = "1.0.2",
 	:ringversion = "1.26",
 	:versions = 	[
 		[
-			:version = "1.0.1",
+			:version = "1.0.2",
 			:branch = "master"
 		]
 	],
@@ -33,9 +33,9 @@ aPackageInfo = [
 		"libraries/svglib/lib/svgwriter.ring",
 		"libraries/svglib/svglib.ring",
 		"samples/UsingSVGLib/svglib_demo.ring",
-		"samples/UsingSVGLib/svglib_logo.ring",
-		"samples/UsingSVGLib/svglib_info.ring",
-		"samples/UsingSVGLib/svglib_process.ring"
+		"samples/UsingSVGLib/svg_logo.ring",
+		"samples/UsingSVGLib/svg_info.ring",
+		"samples/UsingSVGLib/svg_process.ring"
 	],
 	:windowsfiles = 	[
 
