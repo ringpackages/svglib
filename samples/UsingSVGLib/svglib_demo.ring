@@ -7,7 +7,7 @@ load "svglib.ring"
 func main
 
     ? "=============================================="
-    ? "   RingSVGLib Demo - SVG Graphics in Ring"
+    ? "   SVGLib Demo - SVG Graphics in Ring"
     ? "=============================================="
     ? ""
 

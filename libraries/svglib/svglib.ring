@@ -1,5 +1,5 @@
 /*
-    RingSVGLib - SVG Graphics Library for Ring Programming Language
+    SVGLib - SVG Graphics Library for Ring Programming Language
 */
 
 load "lib/constants.rh"
