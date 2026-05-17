@@ -2,7 +2,7 @@
     RingSVGLib Demo - SVG Graphics Creation in Ring
 */
 
-load "ringsvglib.ring"
+load "svglib.ring"
 
 func main
 
