@@ -1,8 +1,8 @@
-# RingSVGLib Documentation
+# SVGLib Documentation
 
 ## Overview
 
-RingSVGLib is a pure Ring library for creating Scalable Vector Graphics (SVG) files using the Ring programming language. It generates standard SVG files that can be viewed in any web browser, embedded in HTML, or used in other applications.
+SVGLib is a pure Ring library for creating Scalable Vector Graphics (SVG) files using the Ring programming language. It generates standard SVG files that can be viewed in any web browser, embedded in HTML, or used in other applications.
 
 ## Features
 
@@ -34,7 +34,7 @@ RingSVGLib is a pure Ring library for creating Scalable Vector Graphics (SVG) fi
 ### Simple SVG
 
 ```ring
-load "ringsvglib.ring"
+load "svglib.ring"
 
 svg = new SVGWriter(400, 300)
 svg.setBackground("white")
@@ -45,7 +45,7 @@ svg.save("circle.svg")
 ### Quick Function
 
 ```ring
-load "ringsvglib.ring"
+load "svglib.ring"
 
 elements = [
     ["rect",   10, 10, 80, 50, [:fill = "blue"]],
@@ -523,7 +523,7 @@ svg.addRect(0, 0, 200, 100, [:fill = grad])   # Pass the URL string directly
 ### Logo Design
 
 ```ring
-load "ringsvglib.ring"
+load "svglib.ring"
 
 svg = new SVGWriter(200, 200)
 svg.setBackground("white")
@@ -541,7 +541,7 @@ svg.save("logo.svg")
 ### Infographic
 
 ```ring
-load "ringsvglib.ring"
+load "svglib.ring"
 
 svg = new SVGWriter(400, 300)
 svg.setBackground("#F5F5F5")
@@ -567,7 +567,7 @@ svg.save("infographic.svg")
 ### Process Diagram
 
 ```ring
-load "ringsvglib.ring"
+load "svglib.ring"
 
 svg = new SVGWriter(500, 150)
 svg.setBackground("white")
