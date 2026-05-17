@@ -23,6 +23,42 @@ SVGLib is a pure Ring library for creating Scalable Vector Graphics (SVG) files 
 
 ---
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+  - [Simple SVG](#simple-svg)
+  - [Quick Function](#quick-function)
+- [Options Reference](#options-reference)
+  - [Style Options](#style-options)
+  - [Transform Options](#transform-options)
+  - [Text-Specific Options](#text-specific-options)
+- [API Reference](#api-reference)
+  - [SVGWriter Class](#svgwriter-class)
+  - [Canvas Settings](#canvas-settings)
+  - [Basic Shapes](#basic-shapes)
+  - [Paths](#paths)
+  - [Text](#text)
+  - [Gradients](#gradients)
+  - [Patterns](#patterns)
+  - [Filters](#filters)
+  - [Markers](#markers)
+  - [Clipping](#clipping)
+  - [Groups](#groups)
+  - [Charts](#charts)
+  - [Diagrams](#diagrams)
+  - [Icons](#icons)
+  - [Output](#output)
+- [Color Reference](#color-reference)
+- [Constants](#constants)
+- [Complete Examples](#complete-examples)
+- [Migration Guide (v1.x → v2.0)](#migration-guide-v1x--v20)
+- [Tips](#tips)
+- [Troubleshooting](#troubleshooting)
+- [Technical Notes](#technical-notes)
+
+---
+
 ## Installation
 
 	ringpm install svglib from ringpackages	
