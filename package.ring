@@ -31,8 +31,8 @@ aPackageInfo = [
 		"libraries/svglib/lib/loadfiles.ring",
 		"libraries/svglib/lib/svgpath.ring",
 		"libraries/svglib/lib/svgwriter.ring",
-		"libraries/svglib/ringsvglib.ring",
-		"samples/UsingSVGLib/ringsvglib_demo.ring"
+		"libraries/svglib/svglib.ring",
+		"samples/UsingSVGLib/svglib_demo.ring"
 	],
 	:windowsfiles = 	[
 
