@@ -22,48 +22,9 @@ func svgColorToHex color
     ok
     
     color = lower(color)
-    colors = [
-        :black = "#000000",
-        :white = "#FFFFFF",
-        :red = "#FF0000",
-        :green = "#00FF00",
-        :blue = "#0000FF",
-        :yellow = "#FFFF00",
-        :orange = "#FFA500",
-        :purple = "#800080",
-        :pink = "#FFC0CB",
-        :gray = "#808080",
-        :grey = "#808080",
-        :navy = "#000080",
-        :teal = "#008080",
-        :maroon = "#800000",
-        :silver = "#C0C0C0",
-        :lime = "#00FF00",
-        :aqua = "#00FFFF",
-        :cyan = "#00FFFF",
-        :fuchsia = "#FF00FF",
-        :magenta = "#FF00FF",
-        :olive = "#808000",
-        :brown = "#A52A2A",
-        :coral = "#FF7F50",
-        :crimson = "#DC143C",
-        :gold = "#FFD700",
-        :indigo = "#4B0082",
-        :ivory = "#FFFFF0",
-        :khaki = "#F0E68C",
-        :lavender = "#E6E6FA",
-        :salmon = "#FA8072",
-        :tan = "#D2B48C",
-        :violet = "#EE82EE",
-        :wheat = "#F5DEB3",
-        :skyblue = "#87CEEB",
-        :steelblue = "#4682B4",
-        :tomato = "#FF6347",
-        :turquoise = "#40E0D0"
-    ]
     
-    if colors[color] != NULL
-        return colors[color]
+    if aSVGcolors[color] != NULL
+        return aSVGcolors[color]
     ok
     
     if left(color, 1) != "#"
