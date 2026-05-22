@@ -83,14 +83,6 @@ func svgXmlEsc str
     return str
 
 func svgNum value
-    # Format number for SVG (remove trailing zeros)
-    if isNumber(value)
-        if value = floor(value)
-            return "" + value
-        else
-            return "" + value
-        ok
-    ok
     return "" + value
 
 # Quick function to create simple SVG
